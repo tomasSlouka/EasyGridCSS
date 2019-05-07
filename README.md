@@ -1,4 +1,4 @@
-# EasyGridCSS
+# YMELLO - EasyGridCSS
 
 The most easy grid css framework on the web.  
 One file, easy setup, almost no learning cuve.  
@@ -87,7 +87,7 @@ To divide layout to 3 cols we use class `col-3`
 `justify-self-center`
 
 ## Advanced example
-### Task
+### Problem
 Divide layout to 4 cols on desktop display, 2 cols on tablet and 1 col on mobile devices. On tablet the third one item should span 2 cols. Items should be align to top and center  
 
 ### Solution
