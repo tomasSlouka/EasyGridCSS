@@ -68,6 +68,9 @@ To divide layout to 3 cols we use class `col-3`
 ### Item column span
 `span-n` - span child element to `n` cols where n is number from 1 to 12  
 
+### Item column start
+`start-n` - start child element at `n` column where n is number from 1 to 12
+
 ### Display specific item span
 `xs-span-n` - extra small display (max-width : 576px)  
 `sm-span-n` - small display (min-width : 576px)  
