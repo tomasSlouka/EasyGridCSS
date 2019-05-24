@@ -171,9 +171,15 @@ grid-template-columns: repeat(10,auto);
 }
 
 .grid.table {
-	min-width: 768px;
+	max-width: 768px;
+    min-width: 100%;
+	overflow: auto;
 }
-
+.grid.table.auto {
+	max-width: 768px;
+	min-width: auto;
+	overflow: auto;
+}
 
 
 
