@@ -1,4 +1,4 @@
-# YMELLO - EasyGridCSS
+# EasyGridCSS
 
 The most easy grid css framework on the web.  
 One file, easy setup, almost no learning cuve.  
