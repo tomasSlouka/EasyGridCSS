@@ -62,7 +62,7 @@ To divide layout to 3 cols we use class `col-3`
 `justify-items-center`  
 
 ### Gaps between child element
-`gap1` - `gap100` - from 1px to 100px  
+`gap-1` - `gap-100` - from 1px to 100px  
 
 ## Classes for child element (item)
 ### Item column span
