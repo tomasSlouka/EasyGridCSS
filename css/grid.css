@@ -74,34 +74,34 @@
 
 .grid.auto, 
 .grid.col-1.auto {
-grid-template-columns: repeat(1,auto);
+    grid-template-columns: repeat(1,auto);
 }
 .grid.col-2.auto {
-grid-template-columns: repeat(2,auto);
+    grid-template-columns: repeat(2,auto);
 }
 .grid.col-3.auto {
-grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
 }
 .grid.col-4.auto {
-grid-template-columns: repeat(4,auto);
+    grid-template-columns: repeat(4,auto);
 }
 .grid.col-5.auto {
-grid-template-columns: repeat(5,auto);
+    grid-template-columns: repeat(5,auto);
 }
 .grid.col-6.auto {
-grid-template-columns: repeat(6,auto);
+    grid-template-columns: repeat(6,auto);
 }
 .grid.col-7.auto {
-grid-template-columns: repeat(7,auto);
+    grid-template-columns: repeat(7,auto);
 }
 .grid.col-8.auto {
-grid-template-columns: repeat(8,auto);
+    grid-template-columns: repeat(8,auto);
 }
 .grid.col-9.auto {
-grid-template-columns: repeat(9,auto);
+    grid-template-columns: repeat(9,auto);
 }
 .grid.col-10.auto {
-grid-template-columns: repeat(10,auto);
+    grid-template-columns: repeat(10,auto);
 }
 .grid.col-11.auto {
 	grid-template-columns: repeat(11,auto);
@@ -120,9 +120,6 @@ grid-template-columns: repeat(10,auto);
 	min-width: auto;
 	overflow: auto;
 }
-
-
-
 
 /* ALIGNMENT FOR WHOLE GRID CONTAINER */
 /* along x axis */	
@@ -660,6 +657,137 @@ grid-template-columns: repeat(10,auto);
     .grid.xs-col-12.auto {
         grid-template-columns: repeat(12,auto);
     }
+
+    /* ALIGNMENT FOR WHOLE GRID CONTAINER */
+    /* along x axis */	
+    .grid.xs-justify-content-start,
+    .grid.xs-x-content-start,
+    .grid.xs-xc-start {justify-content: start;}
+
+    .grid.xs-justify-content-center,
+    .grid.xs-x-content-center,
+    .grid.xs-xc-center {justify-content: center;}
+
+    .grid.xs-justify-content-stretch,
+    .grid.xs-x-content-stretch,
+    .grid.xs-xc-stretch {justify-content: stretch;}
+
+    .grid.xs-justify-content-end,
+    .grid.xs-x-content-end,
+    .grid.xs-xc-end {justify-content: end;}
+
+    .grid.xs-justify-content-space-around,
+    .grid.xs-x-content-space-around,
+    .grid.xs-xc-space-around {justify-content: space-around;}
+
+    .grid.xs-justify-content-space-between,
+    .grid.xs-x-content-space-between,
+    .grid.xs-xc-space-between {justify-content: space-between;}
+
+    .grid.xs-justify-content-space-evenly,
+    .grid.xs-x-content-space-evenly,
+    .grid.xs-xc-space-evenly {justify-content: space-evenly;}
+
+    /* along y axis */	
+    .grid.xs-align-content-start,
+    .grid.xs-y-content-start,
+    .grid.xs-yc-start {align-content: start;	}
+
+    .grid.xs-align-content-center,
+    .grid.xs-y-content-center,
+    .grid.xs-yc-center {align-content: center;}
+
+    .grid.xs-align-content-stretch,
+    .grid.xs-y-content-stretch,
+    .grid.xs-yc-stretch {align-content: stretch;}
+
+    .grid.xs-align-content-end,
+    .grid.xs-y-content-end,
+    .grid.xs-yc-end {align-content: end;}
+
+    .grid.xs-align-content-space-around,
+    .grid.xs-y-content-space-around,
+    .grid.xs-yc-space-around {align-content: space-around;}
+
+    .grid.xs-align-content-space-between,
+    .grid.xs-y-content-space-between,
+    .grid.xs-yc-space-between {align-content: space-between;}
+
+    .grid.xs-align-content-space-evenly,
+    .grid.xs-y-content-space-evenly,
+    .grid.xs-yc-space-evenly {align-content: space-evenly;}
+
+
+    /* GENERAL ALIGNMENT FOR ALL ITEMS IN GRID CONTAINER */
+    /* along x axis */	
+    .grid.xs-justify-items-start,
+    .grid.xs-x-items-start,
+    .grid.xs-xi-start {justify-items: start;}
+
+    .grid.xs-justify-items-center,
+    .grid.xs-x-items-center,
+    .grid.xs-xi-center {justify-items: center;}
+
+    .grid.xs-justify-items-stretch,
+    .grid.xs-x-items-stretch,
+    .grid.xs-xi-stretch {justify-items: stretch;}
+
+    .grid.xs-justify-items-end,
+    .grid.xs-x-items-end,
+    .grid.xs-xi-end {justify-items: end;}
+
+    /* along y axis */
+    .grid.xs-align-items-start,
+    .grid.xs-y-items-start,
+    .grid.xs-yi-start {align-items: start;}
+
+    .grid.xs-align-items-center,
+    .grid.xs-y-items-center,
+    .grid.xs-yi-center {align-items: center;}
+
+    .grid.xs-align-items-stretch,
+    .grid.xs-y-items-stretch,
+    .grid.xs-yi-stretch {align-items: stretch;}
+
+    .grid.xs-align-items-end,
+    .grid.xs-y-items-end,
+    .grid.xs-yi-end {align-items: end;}
+
+
+    /* ALIGNMENT FOR SPECIFIC ITEM IN GRID CONTAINER */
+    /* along x axis */
+    .grid > .xs-justify-self-start,
+    .grid > .xs-x-self-start,
+    .grid > .xs-xs-start {justify-self: start;}
+
+    .grid > .xs-justify-self-center,
+    .grid > .xs-x-self-center,
+    .grid > .xs-xs-center {justify-self: center;}
+
+    .grid > .xs-justify-self-stretch,
+    .grid > .xs-x-self-stretch,
+    .grid > .xs-xs-stretch {justify-self: stretch;}
+
+    .grid > .xs-justify-self-end,
+    .grid > .xs-x-self-end,
+    .grid > .xs-xs-end {justify-self: end;}
+
+    /* along y axis */
+    .grid > .xs-align-self-start,
+    .grid > .xs-y-self-start,
+    .grid > .xs-ys-start {align-self: start;}
+
+    .grid > .xs-align-self-center,
+    .grid > .xs-y-self-center,
+    .grid > .xs-ys-center {align-self: center;}
+
+    .grid > .xs-align-self-stretch,
+    .grid > .xs-y-self-stretch,
+    .grid > .xs-ys-stretch {align-self: stretch;}
+
+    .grid > .xs-align-self-end,
+    .grid > .xs-y-self-end,
+    .grid > .xs-ys-end {align-self: end;}
 }
 
 @media only screen and (min-width : 576px) {
@@ -860,6 +988,136 @@ grid-template-columns: repeat(10,auto);
         grid-template-columns: repeat(12,auto);
     }
 
+    /* ALIGNMENT FOR WHOLE GRID CONTAINER */
+    /* along x axis */	
+    .grid.sm-justify-content-start,
+    .grid.sm-x-content-start,
+    .grid.sm-xc-start {justify-content: start;}
+
+    .grid.sm-justify-content-center,
+    .grid.sm-x-content-center,
+    .grid.sm-xc-center {justify-content: center;}
+
+    .grid.sm-justify-content-stretch,
+    .grid.sm-x-content-stretch,
+    .grid.sm-xc-stretch {justify-content: stretch;}
+
+    .grid.sm-justify-content-end,
+    .grid.sm-x-content-end,
+    .grid.sm-xc-end {justify-content: end;}
+
+    .grid.sm-justify-content-space-around,
+    .grid.sm-x-content-space-around,
+    .grid.sm-xc-space-around {justify-content: space-around;}
+
+    .grid.sm-justify-content-space-between,
+    .grid.sm-x-content-space-between,
+    .grid.sm-xc-space-between {justify-content: space-between;}
+
+    .grid.sm-justify-content-space-evenly,
+    .grid.sm-x-content-space-evenly,
+    .grid.sm-xc-space-evenly {justify-content: space-evenly;}
+
+    /* along y axis */	
+    .grid.sm-align-content-start,
+    .grid.sm-y-content-start,
+    .grid.sm-yc-start {align-content: start;	}
+
+    .grid.sm-align-content-center,
+    .grid.sm-y-content-center,
+    .grid.sm-yc-center {align-content: center;}
+
+    .grid.sm-align-content-stretch,
+    .grid.sm-y-content-stretch,
+    .grid.sm-yc-stretch {align-content: stretch;}
+
+    .grid.sm-align-content-end,
+    .grid.sm-y-content-end,
+    .grid.sm-yc-end {align-content: end;}
+
+    .grid.sm-align-content-space-around,
+    .grid.sm-y-content-space-around,
+    .grid.sm-yc-space-around {align-content: space-around;}
+
+    .grid.sm-align-content-space-between,
+    .grid.sm-y-content-space-between,
+    .grid.sm-yc-space-between {align-content: space-between;}
+
+    .grid.sm-align-content-space-evenly,
+    .grid.sm-y-content-space-evenly,
+    .grid.sm-yc-space-evenly {align-content: space-evenly;}
+
+
+    /* GENERAL ALIGNMENT FOR ALL ITEMS IN GRID CONTAINER */
+    /* along x axis */	
+    .grid.sm-justify-items-start,
+    .grid.sm-x-items-start,
+    .grid.sm-xi-start {justify-items: start;}
+
+    .grid.sm-justify-items-center,
+    .grid.sm-x-items-center,
+    .grid.sm-xi-center {justify-items: center;}
+
+    .grid.sm-justify-items-stretch,
+    .grid.sm-x-items-stretch,
+    .grid.sm-xi-stretch {justify-items: stretch;}
+
+    .grid.sm-justify-items-end,
+    .grid.sm-x-items-end,
+    .grid.sm-xi-end {justify-items: end;}
+
+    /* along y axis */
+    .grid.sm-align-items-start,
+    .grid.sm-y-items-start,
+    .grid.sm-yi-start {align-items: start;}
+
+    .grid.sm-align-items-center,
+    .grid.sm-y-items-center,
+    .grid.sm-yi-center {align-items: center;}
+
+    .grid.sm-align-items-stretch,
+    .grid.sm-y-items-stretch,
+    .grid.sm-yi-stretch {align-items: stretch;}
+
+    .grid.sm-align-items-end,
+    .grid.sm-y-items-end,
+    .grid.sm-yi-end {align-items: end;}
+
+
+    /* ALIGNMENT FOR SPECIFIC ITEM IN GRID CONTAINER */
+    /* along x axis */
+    .grid > .sm-justify-self-start,
+    .grid > .sm-x-self-start,
+    .grid > .sm-xs-start {justify-self: start;}
+
+    .grid > .sm-justify-self-center,
+    .grid > .sm-x-self-center,
+    .grid > .sm-xs-center {justify-self: center;}
+
+    .grid > .sm-justify-self-stretch,
+    .grid > .sm-x-self-stretch,
+    .grid > .sm-xs-stretch {justify-self: stretch;}
+
+    .grid > .sm-justify-self-end,
+    .grid > .sm-x-self-end,
+    .grid > .sm-xs-end {justify-self: end;}
+
+    /* along y axis */
+    .grid > .sm-align-self-start,
+    .grid > .sm-y-self-start,
+    .grid > .sm-ys-start {align-self: start;}
+
+    .grid > .sm-align-self-center,
+    .grid > .sm-y-self-center,
+    .grid > .sm-ys-center {align-self: center;}
+
+    .grid > .sm-align-self-stretch,
+    .grid > .sm-y-self-stretch,
+    .grid > .sm-ys-stretch {align-self: stretch;}
+
+    .grid > .sm-align-self-end,
+    .grid > .sm-y-self-end,
+    .grid > .sm-ys-end {align-self: end;}
 }
 
 @media only screen and (min-width : 768px) {
@@ -1059,6 +1317,136 @@ grid-template-columns: repeat(10,auto);
     .grid.md-col-12.auto {
         grid-template-columns: repeat(12,auto);
     }
+    
+    /* ALIGNMENT FOR WHOLE GRID CONTAINER */
+    /* along x axis */	
+    .grid.md-justify-content-start,
+    .grid.md-x-content-start,
+    .grid.md-xc-start {justify-content: start;}
+
+    .grid.md-justify-content-center,
+    .grid.md-x-content-center,
+    .grid.md-xc-center {justify-content: center;}
+
+    .grid.md-justify-content-stretch,
+    .grid.md-x-content-stretch,
+    .grid.md-xc-stretch {justify-content: stretch;}
+
+    .grid.md-justify-content-end,
+    .grid.md-x-content-end,
+    .grid.md-xc-end {justify-content: end;}
+
+    .grid.md-justify-content-space-around,
+    .grid.md-x-content-space-around,
+    .grid.md-xc-space-around {justify-content: space-around;}
+
+    .grid.md-justify-content-space-between,
+    .grid.md-x-content-space-between,
+    .grid.md-xc-space-between {justify-content: space-between;}
+
+    .grid.md-justify-content-space-evenly,
+    .grid.md-x-content-space-evenly,
+    .grid.md-xc-space-evenly {justify-content: space-evenly;}
+
+    /* along y axis */	
+    .grid.md-align-content-start,
+    .grid.md-y-content-start,
+    .grid.md-yc-start {align-content: start;	}
+
+    .grid.md-align-content-center,
+    .grid.md-y-content-center,
+    .grid.md-yc-center {align-content: center;}
+
+    .grid.md-align-content-stretch,
+    .grid.md-y-content-stretch,
+    .grid.md-yc-stretch {align-content: stretch;}
+
+    .grid.md-align-content-end,
+    .grid.md-y-content-end,
+    .grid.md-yc-end {align-content: end;}
+
+    .grid.md-align-content-space-around,
+    .grid.md-y-content-space-around,
+    .grid.md-yc-space-around {align-content: space-around;}
+
+    .grid.md-align-content-space-between,
+    .grid.md-y-content-space-between,
+    .grid.md-yc-space-between {align-content: space-between;}
+
+    .grid.md-align-content-space-evenly,
+    .grid.md-y-content-space-evenly,
+    .grid.md-yc-space-evenly {align-content: space-evenly;}
+
+
+    /* GENERAL ALIGNMENT FOR ALL ITEMS IN GRID CONTAINER */
+    /* along x axis */	
+    .grid.md-justify-items-start,
+    .grid.md-x-items-start,
+    .grid.md-xi-start {justify-items: start;}
+
+    .grid.md-justify-items-center,
+    .grid.md-x-items-center,
+    .grid.md-xi-center {justify-items: center;}
+
+    .grid.md-justify-items-stretch,
+    .grid.md-x-items-stretch,
+    .grid.md-xi-stretch {justify-items: stretch;}
+
+    .grid.md-justify-items-end,
+    .grid.md-x-items-end,
+    .grid.md-xi-end {justify-items: end;}
+
+    /* along y axis */
+    .grid.md-align-items-start,
+    .grid.md-y-items-start,
+    .grid.md-yi-start {align-items: start;}
+
+    .grid.md-align-items-center,
+    .grid.md-y-items-center,
+    .grid.md-yi-center {align-items: center;}
+
+    .grid.md-align-items-stretch,
+    .grid.md-y-items-stretch,
+    .grid.md-yi-stretch {align-items: stretch;}
+
+    .grid.md-align-items-end,
+    .grid.md-y-items-end,
+    .grid.md-yi-end {align-items: end;}
+    
+    /* ALIGNMENT FOR SPECIFIC ITEM IN GRID CONTAINER */
+    /* along x axis */
+    .grid > .md-justify-self-start,
+    .grid > .md-x-self-start,
+    .grid > .md-xs-start {justify-self: start;}
+
+    .grid > .md-justify-self-center,
+    .grid > .md-x-self-center,
+    .grid > .md-xs-center {justify-self: center;}
+
+    .grid > .md-justify-self-stretch,
+    .grid > .md-x-self-stretch,
+    .grid > .md-xs-stretch {justify-self: stretch;}
+
+    .grid > .md-justify-self-end,
+    .grid > .md-x-self-end,
+    .grid > .md-xs-end {justify-self: end;}
+
+    /* along y axis */
+    .grid > .md-align-self-start,
+    .grid > .md-y-self-start,
+    .grid > .md-ys-start {align-self: start;}
+
+    .grid > .md-align-self-center,
+    .grid > .md-y-self-center,
+    .grid > .md-ys-center {align-self: center;}
+
+    .grid > .md-align-self-stretch,
+    .grid > .md-y-self-stretch,
+    .grid > .md-ys-stretch {align-self: stretch;}
+
+    .grid > .md-align-self-end,
+    .grid > .md-y-self-end,
+    .grid > .md-ys-end {align-self: end;}
 }
 
 @media only screen and (min-width : 992px) {
@@ -1259,7 +1647,137 @@ grid-template-columns: repeat(10,auto);
     .grid.lg-col-12.auto {
         grid-template-columns: repeat(12,auto);
     }
-	
+
+    /* ALIGNMENT FOR WHOLE GRID CONTAINER */
+    /* along x axis */	
+    .grid.lg-justify-content-start,
+    .grid.lg-x-content-start,
+    .grid.lg-xc-start {justify-content: start;}
+
+    .grid.lg-justify-content-center,
+    .grid.lg-x-content-center,
+    .grid.lg-xc-center {justify-content: center;}
+
+    .grid.lg-justify-content-stretch,
+    .grid.lg-x-content-stretch,
+    .grid.lg-xc-stretch {justify-content: stretch;}
+
+    .grid.lg-justify-content-end,
+    .grid.lg-x-content-end,
+    .grid.lg-xc-end {justify-content: end;}
+
+    .grid.lg-justify-content-space-around,
+    .grid.lg-x-content-space-around,
+    .grid.lg-xc-space-around {justify-content: space-around;}
+
+    .grid.lg-justify-content-space-between,
+    .grid.lg-x-content-space-between,
+    .grid.lg-xc-space-between {justify-content: space-between;}
+
+    .grid.lg-justify-content-space-evenly,
+    .grid.lg-x-content-space-evenly,
+    .grid.lg-xc-space-evenly {justify-content: space-evenly;}
+
+    /* along y axis */	
+    .grid.lg-align-content-start,
+    .grid.lg-y-content-start,
+    .grid.lg-yc-start {align-content: start;	}
+
+    .grid.lg-align-content-center,
+    .grid.lg-y-content-center,
+    .grid.lg-yc-center {align-content: center;}
+
+    .grid.lg-align-content-stretch,
+    .grid.lg-y-content-stretch,
+    .grid.lg-yc-stretch {align-content: stretch;}
+
+    .grid.lg-align-content-end,
+    .grid.lg-y-content-end,
+    .grid.lg-yc-end {align-content: end;}
+
+    .grid.lg-align-content-space-around,
+    .grid.lg-y-content-space-around,
+    .grid.lg-yc-space-around {align-content: space-around;}
+
+    .grid.lg-align-content-space-between,
+    .grid.lg-y-content-space-between,
+    .grid.lg-yc-space-between {align-content: space-between;}
+
+    .grid.lg-align-content-space-evenly,
+    .grid.lg-y-content-space-evenly,
+    .grid.lg-yc-space-evenly {align-content: space-evenly;}
+
+
+    /* GENERAL ALIGNMENT FOR ALL ITEMS IN GRID CONTAINER */
+    /* along x axis */	
+    .grid.lg-justify-items-start,
+    .grid.lg-x-items-start,
+    .grid.lg-xi-start {justify-items: start;}
+
+    .grid.lg-justify-items-center,
+    .grid.lg-x-items-center,
+    .grid.lg-xi-center {justify-items: center;}
+
+    .grid.lg-justify-items-stretch,
+    .grid.lg-x-items-stretch,
+    .grid.lg-xi-stretch {justify-items: stretch;}
+
+    .grid.lg-justify-items-end,
+    .grid.lg-x-items-end,
+    .grid.lg-xi-end {justify-items: end;}
+
+    /* along y axis */
+    .grid.lg-align-items-start,
+    .grid.lg-y-items-start,
+    .grid.lg-yi-start {align-items: start;}
+
+    .grid.lg-align-items-center,
+    .grid.lg-y-items-center,
+    .grid.lg-yi-center {align-items: center;}
+
+    .grid.lg-align-items-stretch,
+    .grid.lg-y-items-stretch,
+    .grid.lg-yi-stretch {align-items: stretch;}
+
+    .grid.lg-align-items-end,
+    .grid.lg-y-items-end,
+    .grid.lg-yi-end {align-items: end;}
+
+
+    /* ALIGNMENT FOR SPECIFIC ITEM IN GRID CONTAINER */
+    /* along x axis */
+    .grid > .lg-justify-self-start,
+    .grid > .lg-x-self-start,
+    .grid > .lg-xs-start {justify-self: start;}
+
+    .grid > .lg-justify-self-center,
+    .grid > .lg-x-self-center,
+    .grid > .lg-xs-center {justify-self: center;}
+
+    .grid > .lg-justify-self-stretch,
+    .grid > .lg-x-self-stretch,
+    .grid > .lg-xs-stretch {justify-self: stretch;}
+
+    .grid > .lg-justify-self-end,
+    .grid > .lg-x-self-end,
+    .grid > .lg-xs-end {justify-self: end;}
+
+    /* along y axis */
+    .grid > .lg-align-self-start,
+    .grid > .lg-y-self-start,
+    .grid > .lg-ys-start {align-self: start;}
+
+    .grid > .lg-align-self-center,
+    .grid > .lg-y-self-center,
+    .grid > .lg-ys-center {align-self: center;}
+
+    .grid > .lg-align-self-stretch,
+    .grid > .lg-y-self-stretch,
+    .grid > .lg-ys-stretch {align-self: stretch;}
+
+    .grid > .lg-align-self-end,
+    .grid > .lg-y-self-end,
+    .grid > .lg-ys-end {align-self: end;}	
 }
 
 @media only screen and (min-width : 1200px) {
@@ -1461,4 +1979,134 @@ grid-template-columns: repeat(10,auto);
         grid-template-columns: repeat(12,auto);
     }
 
+    /* ALIGNMENT FOR WHOLE GRID CONTAINER */
+    /* along x axis */	
+    .grid.xl-justify-content-start,
+    .grid.xl-x-content-start,
+    .grid.xl-xc-start {justify-content: start;}
+
+    .grid.xl-justify-content-center,
+    .grid.xl-x-content-center,
+    .grid.xl-xc-center {justify-content: center;}
+
+    .grid.xl-justify-content-stretch,
+    .grid.xl-x-content-stretch,
+    .grid.xl-xc-stretch {justify-content: stretch;}
+
+    .grid.xl-justify-content-end,
+    .grid.xl-x-content-end,
+    .grid.xl-xc-end {justify-content: end;}
+
+    .grid.xl-justify-content-space-around,
+    .grid.xl-x-content-space-around,
+    .grid.xl-xc-space-around {justify-content: space-around;}
+
+    .grid.xl-justify-content-space-between,
+    .grid.xl-x-content-space-between,
+    .grid.xl-xc-space-between {justify-content: space-between;}
+
+    .grid.xl-justify-content-space-evenly,
+    .grid.xl-x-content-space-evenly,
+    .grid.xl-xc-space-evenly {justify-content: space-evenly;}
+
+    /* along y axis */	
+    .grid.xl-align-content-start,
+    .grid.xl-y-content-start,
+    .grid.xl-yc-start {align-content: start;	}
+
+    .grid.xl-align-content-center,
+    .grid.xl-y-content-center,
+    .grid.xl-yc-center {align-content: center;}
+
+    .grid.xl-align-content-stretch,
+    .grid.xl-y-content-stretch,
+    .grid.xl-yc-stretch {align-content: stretch;}
+
+    .grid.xl-align-content-end,
+    .grid.xl-y-content-end,
+    .grid.xl-yc-end {align-content: end;}
+
+    .grid.xl-align-content-space-around,
+    .grid.xl-y-content-space-around,
+    .grid.xl-yc-space-around {align-content: space-around;}
+
+    .grid.xl-align-content-space-between,
+    .grid.xl-y-content-space-between,
+    .grid.xl-yc-space-between {align-content: space-between;}
+
+    .grid.xl-align-content-space-evenly,
+    .grid.xl-y-content-space-evenly,
+    .grid.xl-yc-space-evenly {align-content: space-evenly;}
+
+
+    /* GENERAL ALIGNMENT FOR ALL ITEMS IN GRID CONTAINER */
+    /* along x axis */	
+    .grid.xl-justify-items-start,
+    .grid.xl-x-items-start,
+    .grid.xl-xi-start {justify-items: start;}
+
+    .grid.xl-justify-items-center,
+    .grid.xl-x-items-center,
+    .grid.xl-xi-center {justify-items: center;}
+
+    .grid.xl-justify-items-stretch,
+    .grid.xl-x-items-stretch,
+    .grid.xl-xi-stretch {justify-items: stretch;}
+
+    .grid.xl-justify-items-end,
+    .grid.xl-x-items-end,
+    .grid.xl-xi-end {justify-items: end;}
+
+    /* along y axis */
+    .grid.xl-align-items-start,
+    .grid.xl-y-items-start,
+    .grid.xl-yi-start {align-items: start;}
+
+    .grid.xl-align-items-center,
+    .grid.xl-y-items-center,
+    .grid.xl-yi-center {align-items: center;}
+
+    .grid.xl-align-items-stretch,
+    .grid.xl-y-items-stretch,
+    .grid.xl-yi-stretch {align-items: stretch;}
+
+    .grid.xl-align-items-end,
+    .grid.xl-y-items-end,
+    .grid.xl-yi-end {align-items: end;}
+
+
+    /* ALIGNMENT FOR SPECIFIC ITEM IN GRID CONTAINER */
+    /* along x axis */
+    .grid > .xl-justify-self-start,
+    .grid > .xl-x-self-start,
+    .grid > .xl-xs-start {justify-self: start;}
+
+    .grid > .xl-justify-self-center,
+    .grid > .xl-x-self-center,
+    .grid > .xl-xs-center {justify-self: center;}
+
+    .grid > .xl-justify-self-stretch,
+    .grid > .xl-x-self-stretch,
+    .grid > .xl-xs-stretch {justify-self: stretch;}
+
+    .grid > .xl-justify-self-end,
+    .grid > .xl-x-self-end,
+    .grid > .xl-xs-end {justify-self: end;}
+
+    /* along y axis */
+    .grid > .xl-align-self-start,
+    .grid > .xl-y-self-start,
+    .grid > .xl-ys-start {align-self: start;}
+
+    .grid > .xl-align-self-center,
+    .grid > .xl-y-self-center,
+    .grid > .xl-ys-center {align-self: center;}
+
+    .grid > .xl-align-self-stretch,
+    .grid > .xl-y-self-stretch,
+    .grid > .xl-ys-stretch {align-self: stretch;}
+
+    .grid > .xl-align-self-end,
+    .grid > .xl-y-self-end,
+    .grid > .xl-ys-end {align-self: end;}
 }
